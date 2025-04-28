@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #0a74da;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+header h1,
+footer p {
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list article {
+  margin-bottom: 20px;
+}
+
+.post-preview h2 {
+  margin: 0 0 10px;
+}
+
+.post-preview p {
+  margin: 0;
+}
+
+a {
+  color: #0a74da;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
